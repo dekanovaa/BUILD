@@ -1,0 +1,31 @@
+.project__title{
+    font-size:25px;
+    color: black;
+    font-weight:500;
+    padding-bottom: 20px;
+}
+.project__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.project__item{
+    width: 48%;
+    height: 330px;
+    padding: 20px;
+}
+.project__name{
+    color: white;
+    font-size: 26px;
+    font-weight:500;
+}
+.project__text{
+    font-size:16px;
+    font-weight: 500;
+    color: white;
+    line-height: 28px;
+    padding-top: 30px;
+}
+.project{
+    padding-bottom: 50px;
+}

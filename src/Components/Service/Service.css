@@ -1,0 +1,42 @@
+.service__item_small{
+    background-color: #2c3442;
+    border-radius: 15px;
+    width: 40%;
+    height: 180px;
+    display: flex;
+    justify-content:space-between;
+    padding-left:20px;
+}
+.service__item_big{
+    background-color:#2c3442;
+    border-radius: 15px;
+    width: 55%;
+    height: 180px;
+    display: flex;
+    justify-content:space-between;
+    padding-left:20px;
+}
+.service__list{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.service__title{
+    font-size:18px;
+    color: white;
+    font-weight:400;
+    padding-top: 120px;
+}
+.service__name{
+    color:#2c3442;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.service{
+    padding-top: 50px;
+    background-color: #fce8bd;
+    padding-bottom: 45px;
+    
+}

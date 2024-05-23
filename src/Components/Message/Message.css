@@ -1,0 +1,53 @@
+.message{
+    background-color:#202733;
+    padding-top:120px;
+    padding-bottom: 120px;
+}
+.message__container{
+    border-radius: 25px;
+    padding:40px 70px;
+}
+.message__title{
+    font-size:30px;
+    color: white;
+    line-height: 44px;
+    font-weight:400;
+    max-width: 370px;
+    padding-bottom:50px;
+}
+#name,#tel{
+    width: 430px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color:#d9d9d9;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+#text{
+    width: 430px;
+    height: 180px;
+    border-radius: 20px;
+    border: none;
+    background-color: #d9d9d9;
+    border: none;
+    margin-top: 5px;
+    margin-bottom:25px;
+    padding: 15px;
+}
+.form__btn{
+    width: 210px;
+    height: 45px;
+    border-radius: 25px;
+    color: white;
+    border: 1px solid white;
+    background-color:transparent;
+    font-size: 16px;
+}
+.form__btn:hover{
+    background-color: white;
+    color: #202733;
+    transition: 0.3s;
+        
+}
+

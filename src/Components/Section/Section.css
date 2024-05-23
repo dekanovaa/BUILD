@@ -1,0 +1,27 @@
+.section__title{
+    font-size:24px;
+    color: white;
+    font-weight: 300;
+}
+.section{
+    padding-top: 90px;
+    padding-bottom: 120px;
+    margin-top: 0;
+}
+.section__list{
+    display: flex;
+    align-items: center;
+    padding-top:60px;
+    gap: 50px;
+}
+.section__name{
+    font-size:40px;
+    color: white;
+    font-weight:600;
+}
+.section__text{
+    color: white;
+    font-size:16px;
+    font-weight: 500;
+    padding-top: 10px;
+}
