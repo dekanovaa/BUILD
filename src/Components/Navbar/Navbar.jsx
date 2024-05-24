@@ -16,7 +16,7 @@ function Navbar() {
 
   const handleScroll = () => {
     // console.log(window)
-    if (window.scrollY > 200) { // change 200 to whatever pixel value you need
+    if (window.scrollY > 150) { // change 200 to whatever pixel value you need
       setNavColor('blue'); // or any color you want
     } else {
       setNavColor('transparent');

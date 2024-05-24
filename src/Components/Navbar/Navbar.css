@@ -40,9 +40,9 @@ option{
     padding-left: 15px;
 }
 .navbar-transparent{
-    background: yellow;
+    background: transparent;
     
 }
 .navbar-blue{
-    background-color:red
+    background-color:#fce8bd;
 }
