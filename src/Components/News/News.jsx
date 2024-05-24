@@ -8,7 +8,7 @@ function News() {
  
 
   return (
-    <div className="news">
+    <div className="news" id="news">
         <div className="container news__container">
             <h3 className="news__title">All our news</h3>
             <ul className="news__list">

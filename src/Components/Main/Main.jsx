@@ -10,7 +10,7 @@ function Main() {
  
 
   return (
-    <div className="main">
+    <div className="main" id="main">
         <h4 className="main__title">Your dream home</h4>
        <div className="main__box">
            <img className="main__img" src={main1} alt=""/>

@@ -17,12 +17,17 @@ function Footer() {
             </div>
           </li>
           <li className="footer__item">
-            <p classNmae="footer__text">Our company</p>
+            <p className="footer__text">Our company</p>
             <a className="footer__link" href="/">Interprises</a>
-            <a href=""></a>
-
+            <a className="footer__link" href="#project">About Us</a>
+            <a className="footer__link" href="#news">News</a>
+            <a className="footer__link" href="#main">Our Projects</a>
           </li>
-
+          <li className="footer__item">
+            <p className="footer__text">Communication</p>
+            <a className="footer__link" href="tel:+998955250555">+998955250555</a>
+            <a className="footer__link" href="tel:+998970777770">+998970777770</a>
+          </li>
         </ul>
       </div>
 

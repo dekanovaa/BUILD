@@ -15,8 +15,8 @@ function Header() {
             <h1 className="header__title">ATAEV <br/> BAHODIR BUILD</h1>
             <p className="header__text">Excellence in everything</p>
             <div className="header__box">
-                <button className="header__btn">Our Projects</button>
-                <button className="header__btn">Connection</button>
+                <a className="header__link" href="#project">Our Projects</a>
+                <a className="header__link" href="tel:+998986766606">Connection</a>
             </div>
         </div>
     </div>

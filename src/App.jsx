@@ -10,6 +10,7 @@ import News from './Components/News/News'
 import Partners from './Components/Partners/Partners'
 import About from './Components/About/About'
 import Message from './Components/Message/Message'
+import Footer from './Components/Footer/Footer'
 
 function App() {
  
@@ -26,6 +27,7 @@ function App() {
     <Partners/>
     <About/>
     <Message/>
+    <Footer/>
     </>
   )
 }

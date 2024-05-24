@@ -2,6 +2,11 @@ import './Navbar.css'
 import logo from './Navbar_img/logo1.png'
 
 function Navbar() {
+    const { t, i18n } = useTranslation();
+  const handleChange = (event) => {
+    i18n.changeLanguage(event)
+
+  }
  
   return (
      <div className="navbar">
