@@ -21,10 +21,6 @@ i18n
       en: { translation: enTranslation },
       ru: { translation: ruTranslation }
     },
-    detection: {
-      order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
-    }
   });
 
 export default i18n;

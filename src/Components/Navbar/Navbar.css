@@ -12,8 +12,9 @@
     padding-top: 15px;
     padding-bottom: 15px;
     position: fixed;
-    left: 0;
-    right: 0;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 .navbar__img{
     width: 130px;
@@ -37,4 +38,11 @@ option{
     align-items: center;
     justify-content:space-between;
     padding-left: 15px;
+}
+.navbar-transparent{
+    background: yellow;
+    
+}
+.navbar-blue{
+    background-color:red
 }

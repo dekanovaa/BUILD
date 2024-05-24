@@ -7,35 +7,41 @@ import project5 from './Project_img/project5.webp'
 import project6 from './Project_img/project6.webp'
 
 function Project() {
-    const backgroundImageStyle1 = {
-        backgroundImage: `url(${project1})`,
-        backgroundSize: 'cover', 
-        backgroundPosition: 'center',
-      };
+  const backgroundImageStyle1 = {
+    background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${project1})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    height: '330px',
+}
       const backgroundImageStyle2 = {
-        backgroundImage: `url(${project2})`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${project2})`,
         backgroundSize: 'cover', 
         backgroundPosition: 'center',
+        height: '330px',
       };
       const backgroundImageStyle3 = {
-        backgroundImage: `url(${project3})`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${project3})`,
         backgroundSize: 'cover', 
         backgroundPosition: 'center',
+        height:'330px',
       };
       const backgroundImageStyle4 = {
-        backgroundImage: `url(${project4})`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${project4})`,
         backgroundSize: 'cover', 
         backgroundPosition: 'center',
+        height:'330px',
       };
       const backgroundImageStyle5 = {
-        backgroundImage: `url(${project5})`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${project5})`,
         backgroundSize: 'cover', 
         backgroundPosition: 'center',
+        height:'330px',
       };
       const backgroundImageStyle6 = {
-        backgroundImage: `url(${project6})`,
+        background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${project6})`,
         backgroundSize: 'cover', 
         backgroundPosition: 'center',
+        height:'330px',
       };
  
 

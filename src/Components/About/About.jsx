@@ -1,6 +1,8 @@
 import './About.css'
 import about from './About_img/about.png'
 
+
+
 function About() {
     const backgroundImageStyle = {
         backgroundImage: `url(${about})`,

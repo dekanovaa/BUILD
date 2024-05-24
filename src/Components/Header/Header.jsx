@@ -3,10 +3,13 @@ import header from './Header_img/header.jpeg'
 
 function Header() {
     const backgroundImageStyle = {
-        backgroundImage: `url(${header})`,
-        backgroundSize: 'cover', 
-        backgroundPosition: 'center',
-      };
+    background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${header})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    height: '100%',
+}
+
+    
  
 
   return (
