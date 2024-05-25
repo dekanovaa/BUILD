@@ -11,14 +11,24 @@ import Partners from './Components/Partners/Partners'
 import About from './Components/About/About'
 import Message from './Components/Message/Message'
 import Footer from './Components/Footer/Footer'
-import Meeting from './Components/Meeting/Meeting'
+import Modal from './Components/Meeting/Modal'
+import { useTranslation } from 'react-i18next'
+
 
 function App() {
+  const { t, i18n } = useTranslation();
+  const language = localStorage.getItem('i18nextLng')
+  const handleChange = (event) => {
+  const selectedLaungage = event.target.value;
+  i18n.changeLanguage(selectedLaungage)
+}
+ 
+
  
 
   return (
     <>
-    <Navbar/>
+      <Navbar/>
     <Header/>
     <Service/>
     <Section/>

@@ -11,7 +11,7 @@ function Message() {
         backgroundSize: 'cover', 
         backgroundPosition: 'center',
       };
-      const [loading,setloading] = useState(false);
+     
       const sendMessage = (event) =>{
           setloading(true);
           event.preventDefault();
@@ -37,8 +37,6 @@ function Message() {
           }).catch((error) =>{
             message.error("xatolik")
             console.log(error);
-          }).finally(() =>{
-            setloading(false);
           })
       }
  
@@ -47,11 +45,11 @@ function Message() {
     <div className="message" id="message">
         <div className="container message__container" style={backgroundImageStyle}>
             <h3 className="message__title">Do you have any questions, suggestions or requests?</h3>
-            <form onSubmit = {sendMessage}>
+            <form onSubmit = {sendMessage} id="form">
                 <input type="text" id="name" placeholder="Your name" required/><br/>
                 <input type="tel" id="tel" placeholder="Your phone number" required/><br/>
                 <textarea  id="text" placeholder="your message..." required ></textarea><br/>
-                <button type="submit"loading={loading} className="form__btn">Sending</button>
+                <button type="submit" className="form__btn">Sending</button>
             </form>
         </div>
     </div>

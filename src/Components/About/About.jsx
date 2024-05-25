@@ -12,7 +12,7 @@ function About() {
  
 
   return (
-    <div className="about" style={backgroundImageStyle}>
+    <div className="about" style={backgroundImageStyle} id="about">
         <div className="container about__container">
             <h3 className="about__name">ATAEV BAHODIR BUILD</h3>
             <h2 className="about__title">ATAEV BAHODIR BUILD</h2>
