@@ -11,7 +11,7 @@ function Partners() {
  
 
   return (
-    <div className="partners">
+    <div className="partners" id="partner">
         <h3 className="partners__title">Exchange ideas with partners</h3>
         <div className="partners__wrap">
             <img className="partners__img" src={partner1} alt=""/>

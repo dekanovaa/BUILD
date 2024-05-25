@@ -9,8 +9,8 @@
     transition: 0.3s;  
 }
 .navbar{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -45,4 +45,7 @@ option{
 }
 .navbar-blue{
     background-color:#fce8bd;
+}
+.navbar__link-blue{
+
 }

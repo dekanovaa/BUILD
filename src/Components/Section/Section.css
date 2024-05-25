@@ -1,27 +1,27 @@
 .section__title{
-    font-size:24px;
+    font-size:34px;
     color: white;
-    font-weight: 300;
+    font-weight: 500;
 }
 .section{
-    padding-top: 90px;
-    padding-bottom: 120px;
+    padding-top: 140px;
+    padding-bottom: 170px;
     margin-top: 0;
 }
 .section__list{
     display: flex;
     align-items: center;
     padding-top:60px;
-    gap: 50px;
+    gap: 60px;
 }
 .section__name{
-    font-size:40px;
+    font-size:50px;
     color: white;
     font-weight:600;
 }
 .section__text{
     color: white;
-    font-size:16px;
+    font-size:18px;
     font-weight: 500;
     padding-top: 10px;
 }
