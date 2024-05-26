@@ -62,7 +62,7 @@
         "btn":"Send",
         "name":"Your name",
         "tel":"Your phone",
-        "text":"Your message"
+        "text2":"Your message"
     },
     "footer":{
         "text1":"Subscribe to our social networks",

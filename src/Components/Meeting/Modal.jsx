@@ -40,7 +40,7 @@ function Modal(){
         >
           <List>
             {[
-              <h4 className="close">X</h4>,
+             
               <a className="navbar__link_modal" href="/">{t("navbar.link0")}</a>,
               <a className="navbar__link_modal" href="#section">{t("navbar.link1")}</a>,
               <a className="navbar__link_modal" href="#project">{t("navbar.link2")}</a>,

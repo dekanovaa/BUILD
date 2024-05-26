@@ -50,7 +50,7 @@ function Message() {
             <form onSubmit = {sendMessage} id="form" data-aos="fade-up">
                 <input type="text" id="name" placeholder={t("message.name")} required/><br/>
                 <input type="tel" id="tel" placeholder={t("message.tel")} required/><br/>
-                <textarea  id="text" placeholder={t("message.text")} required ></textarea><br/>
+                <textarea  id="text" placeholder={t("message.text2")} required ></textarea><br/>
   <button type="submit" className="form__btn">{t("message.btn")}</button>
             </form>
         </div>

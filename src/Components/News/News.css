@@ -118,13 +118,14 @@
     .news__item{
         flex-direction: column;
         border-radius: 10px;
-        height: 400px;
+        height: 410px;
+        justify-content: center;
     
     }
     .news__img{
         width: 100%;
         border-radius: 0;
-        height: 220px;
+        height: 230px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
