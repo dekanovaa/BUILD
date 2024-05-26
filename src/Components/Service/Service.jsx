@@ -12,6 +12,7 @@ import { useEffect } from 'react'
 function Service() {
     useEffect(function () {
         Aos.init({ duration: 1000 });
+       
         
       }, []);
 
@@ -21,11 +22,11 @@ function Service() {
         <div className="container service__container">
   <h1 className="service__name">{t("service.title")}</h1>
             <ul className="service__list">
-                <li className="service__item_big" data-aos="fade-right">
+                <li className="service__item_big" data-aos="zoom-in-up">
   <h3 className="service__title">{t("service.text1")}</h3>
                     <img className="service__img" src={service1} alt=""/>
                 </li>
-                <li className="service__item_small" data-aos="fade-left">
+                <li className="service__item_small" data-aos="zoom-in-up">
                     <h3 className="service__title">{t("service.text2")}</h3>
                     <img className="service__img" src={service2} alt=""/>
                 </li>

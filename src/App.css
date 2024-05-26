@@ -11,13 +11,9 @@
   width: 1150px;
   margin: 0 auto;
   padding: 0;
+ 
 }
-/* .top{
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
-  background-color: transparent;
-} */
+
 .fa-phone,.fa-bars{
   color:white;
   padding:10px;

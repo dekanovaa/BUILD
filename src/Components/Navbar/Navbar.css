@@ -17,9 +17,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     position: fixed;
-    width: 100%;
-    top: 0;
     z-index: 1000;
+    left: 0;
+    right: 0;
+    
 }
 .navbar__img{
     width: 130px;
@@ -42,7 +43,7 @@ option{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    width: 90%;
+    width: 100%;
 }
 .navbar-transparent{
     background: transparent;
@@ -100,6 +101,7 @@ option{
     .container{
         width: 700px;
     }
+   
 
 }
 @media(max-width:720px){

@@ -13,7 +13,7 @@ function News() {
         <div className="container news__container">
   <h3 className="news__title">{t("news.title")}</h3>
             <ul className="news__list">
-                <li className="news__item" data-aos="fade-right">
+                <li className="news__item" data-aos="zoom-in-up">
                     <img className="news__img" src={news1} alt=""/>
                     <div className="news__box">
   <a className="news__link" href="#partner">{t("news.btn")}</a>
@@ -21,7 +21,7 @@ function News() {
                         <p className="news__text">{t("news.text1")}</p>
                     </div>
                 </li>
-                <li className="news__item" data-aos="fade-left">
+                <li className="news__item" data-aos="zoom-in-up">
                     <img className="news__img" src={news2} alt=""/>
                     <div className="news__box">
                         <a className="news__link" href="#partner">{t("news.btn")}</a>

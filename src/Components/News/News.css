@@ -119,15 +119,19 @@
         flex-direction: column;
         border-radius: 10px;
         height: 410px;
-        justify-content: center;
+        padding-top:0;
+        margin-top: 0;
     
     }
     .news__img{
         width: 100%;
         border-radius: 0;
-        height: 230px;
+        height: 53%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+    }
+    .news__box{
+        height: 45%;
     }
     .news__title{
         font-size: 30px;
@@ -165,9 +169,6 @@
     }
     .news__item{
         width: 100%;
-    }
-    .news__img{
-        height: 200px;
     }
     .news__title{
         font-size: 28px;
