@@ -124,4 +124,7 @@ option{
         width: 100%;
         padding:15px;
     }
+   .navbar{
+       padding:0px;
+   }
 }
