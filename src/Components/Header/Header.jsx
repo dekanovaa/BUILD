@@ -1,5 +1,6 @@
 import './Header.css'
 import header from './Header_img/header.jpeg'
+import { t } from 'i18next'
 
 function Header() {
     const backgroundImageStyle = {
@@ -16,10 +17,10 @@ function Header() {
     <div className="header" style={backgroundImageStyle}>
         <div className="container header__container">
             <h1 className="header__title">ATAEV <br/> BAHODIR BUILD</h1>
-            <p className="header__text">Excellence in everything</p>
+  <p className="header__text">{t("header.text")}</p>
             <div className="header__box">
-                <a className="header__link" href="#project">Our Projects</a>
-                <a className="header__link" href="tel:+998986766606">Connection</a>
+  <a className="header__link" href="#project">{t("header.btn1")}</a>
+  <a className="header__link" href="tel:+998986766606">{t("header.btn2")}</a>
             </div>
         </div>
     </div>

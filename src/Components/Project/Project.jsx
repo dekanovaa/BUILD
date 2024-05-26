@@ -5,6 +5,7 @@ import project3 from './Project_img/project3.webp'
 import project4 from './Project_img/project4.webp'
 import project5 from './Project_img/project5.webp'
 import project6 from './Project_img/project6.webp'
+import { t } from 'i18next'
 
 function Project() {
   const backgroundImageStyle1 = {
@@ -48,31 +49,31 @@ function Project() {
   return (
     <div className="project" id="project">
         <div className="container project__container">
-            <h3 className="project__title">Our Projects</h3>
+  <h3 className="project__title">{t("project.title")}</h3>
             <ul className="project__list">
                 <li className="project__item" style={backgroundImageStyle1}>
                     <h2 className="project__name">Magic City</h2>
-                    <p className="project__text">This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions.</p>
+  <p className="project__text">{t("project.text1")}</p>
                 </li>
                 <li className="project__item" style={backgroundImageStyle2}>
                     <h2 className="project__name">Gardens Residence</h2>
-                    <p className="project__text">Multifunctional residential complex created to provide comfort to the residents of Uzbekistan.</p>
+  <p className="project__text">{t("project.text2")}</p>
                 </li>
                 <li className="project__item" style={backgroundImageStyle3}>
                     <h2 className="project__name">Fonon</h2>
-                    <p className="project__text">This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions.</p>
+  <p className="project__text">{t("project.text3")}</p>
                 </li>
                 <li className="project__item" style={backgroundImageStyle4}>
                     <h2 className="project__name">Magic City</h2>
-                    <p className="project__text">This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions.</p>
+                    <p className="project__text">{t("project.text4")}</p>
                 </li>
                 <li className="project__item" style={backgroundImageStyle5}>
                     <h2 className="project__name">Magic City</h2>
-                    <p className="project__text">This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions.</p>
+                    <p className="project__text">{t("project.text5")}</p>
                 </li>
                 <li className="project__item" style={backgroundImageStyle6}>
                     <h2 className="project__name">Magic City</h2>
-                    <p className="project__text">This is a large-scale socially significant project. The cultural and entertainment cluster in Tashkent is one of the new attractions.</p>
+                    <p className="project__text">{t("project.text6")}</p>
                 </li>
 
             </ul>
