@@ -42,17 +42,18 @@ function Modal(){
             {[
                <h4 onClick={toggleDrawer(anchor,)}>X</h4>,
               <a className="navbar__link_modal" href="/">{t("navbar.link0")}</a>,
-              <a className="navbar__link_modal" href="#section">{t("navbar.link1")}</a>,
-              <a className="navbar__link_modal" href="#project">{t("navbar.link2")}</a>,
-              <a className="navbar__link_modal" href="#section">{t("navbar.link3")}</a>,
-              <a className="navbar__link_modal" href="#about">{t("navbar.link4")}</a>,
-              <a className="navbar__link_modal" href="#news">{t("navbar.link5")}</a>,
-              <a className="navbar__link_modal" href="#message">{t("navbar.link6")}</a>,
-                 <select onChange={handleChange} value={language} id="modal__select">
-               <option id="modal__option" value="en">EN</option>
-               <option id="modal__option" value="uz">UZ</option>
-               <option id="modal__option" value="ru">RU</option>
-               </select>,
+              <a onClick={toggleDrawer(anchor,)} className="navbar__link_modal" href="#section">{t("navbar.link1")}</a>,
+              <a onClick={toggleDrawer(anchor,)} className="navbar__link_modal" href="#project">{t("navbar.link2")}</a>,
+              <a onClick={toggleDrawer(anchor,)} className="navbar__link_modal" href="#section">{t("navbar.link3")}</a>,
+              <a onClick={toggleDrawer(anchor,)} className="navbar__link_modal" href="#about">{t("navbar.link4")}</a>,
+              <a onClick={toggleDrawer(anchor,)} className="navbar__link_modal" href="#news">{t("navbar.link5")}</a>,
+              <a onClick={toggleDrawer(anchor,)} className="navbar__link_modal" href="#message">{t("navbar.link6")}</a>,
+              <div className="modal__box" onClick={handleChange} value={language}>
+                <option onClick={toggleDrawer(anchor,)} id="modal__option" value="en">EN</option>
+               <option onClick={toggleDrawer(anchor,)} id="modal__option" value="uz">UZ</option>
+               <option onClick={toggleDrawer(anchor,)} id="modal__option" value="ru">RU</option>
+              </div>,
+              
                
              
             ].map((text, index) => (
