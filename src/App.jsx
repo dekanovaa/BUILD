@@ -22,6 +22,7 @@ function App() {
   const selectedLaungage = event.target.value;
   i18n.changeLanguage(selectedLaungage)
 }
+
  
 
  

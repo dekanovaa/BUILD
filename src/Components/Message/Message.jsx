@@ -47,7 +47,7 @@ function Message() {
     <div className="message" id="message">
         <div className="container message__container" style={backgroundImageStyle}>
   <h3 className="message__title">{t("message.text")}</h3>
-            <form onSubmit = {sendMessage} id="form">
+            <form onSubmit = {sendMessage} id="form" data-aos="fade-up">
                 <input type="text" id="name" placeholder={t("message.name")} required/><br/>
                 <input type="tel" id="tel" placeholder={t("message.tel")} required/><br/>
                 <textarea  id="text" placeholder={t("message.text")} required ></textarea><br/>

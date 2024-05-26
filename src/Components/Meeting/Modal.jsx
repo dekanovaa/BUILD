@@ -35,11 +35,12 @@ function Modal(){
         <Box
           sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 220 }}
           role="presentation"
-          onClick={toggleDrawer(anchor, false)}
+          // onClick={toggleDrawer(anchor, false)}
           onKeyDown={toggleDrawer(anchor, false)}
         >
           <List>
             {[
+              <h4 className="close">X</h4>,
               <a className="navbar__link_modal" href="/">{t("navbar.link0")}</a>,
               <a className="navbar__link_modal" href="#section">{t("navbar.link1")}</a>,
               <a className="navbar__link_modal" href="#project">{t("navbar.link2")}</a>,
@@ -47,12 +48,12 @@ function Modal(){
               <a className="navbar__link_modal" href="#about">{t("navbar.link4")}</a>,
               <a className="navbar__link_modal" href="#news">{t("navbar.link5")}</a>,
               <a className="navbar__link_modal" href="#message">{t("navbar.link6")}</a>,
-              <select onChange={handleChange} value={language} id="modal__select">,
-                         <option id="modal__option">EN</option>,
-                         <option id="modal__option" >UZ</option>,
-                         <option id="modal__option" >RU</option>,
-                     </select>
-               
+                 <select onChange={handleChange} value={language} id="modal__select">
+               <option id="modal__option" value="en">EN</option>
+               <option id="modal__option" value="uz">UZ</option>
+               <option id="modal__option" value="ru">RU</option>
+               </select>,
+             
             ].map((text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>

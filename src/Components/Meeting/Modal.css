@@ -1,9 +1,12 @@
 #modal__select{
     color: #2c3442;
+    display: block;
 
 }
 #modal__option{
     color: #2c3442;
+    background-color: white;
+    display: block;
 }
 .navbar__link_modal{
     font-size: 18px;

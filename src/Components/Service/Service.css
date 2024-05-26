@@ -63,6 +63,9 @@
     .container{
         width: 800px;
     }
+    .service__title{
+        padding-top:40px
+    }
 }
 @media(max-width:820px){
     .container{

@@ -51,27 +51,27 @@ function Project() {
         <div className="container project__container">
   <h3 className="project__title">{t("project.title")}</h3>
             <ul className="project__list">
-                <li className="project__item" style={backgroundImageStyle1}>
+                <li className="project__item" style={backgroundImageStyle1}  data-aos="fade-right">
                     <h2 className="project__name">Magic City</h2>
   <p className="project__text">{t("project.text1")}</p>
                 </li>
-                <li className="project__item" style={backgroundImageStyle2}>
+                <li className="project__item" style={backgroundImageStyle2}  data-aos="fade-left">
                     <h2 className="project__name">Gardens Residence</h2>
   <p className="project__text">{t("project.text2")}</p>
                 </li>
-                <li className="project__item" style={backgroundImageStyle3}>
+                <li className="project__item" style={backgroundImageStyle3}  data-aos="fade-right">
                     <h2 className="project__name">Fonon</h2>
   <p className="project__text">{t("project.text3")}</p>
                 </li>
-                <li className="project__item" style={backgroundImageStyle4}>
+                <li className="project__item" style={backgroundImageStyle4}  data-aos="fade-left">
                     <h2 className="project__name">Magic City</h2>
                     <p className="project__text">{t("project.text4")}</p>
                 </li>
-                <li className="project__item" style={backgroundImageStyle5}>
+                <li className="project__item" style={backgroundImageStyle5}  data-aos="fade-right">
                     <h2 className="project__name">Magic City</h2>
                     <p className="project__text">{t("project.text5")}</p>
                 </li>
-                <li className="project__item" style={backgroundImageStyle6}>
+                <li className="project__item" style={backgroundImageStyle6}  data-aos="fade-left">
                     <h2 className="project__name">Magic City</h2>
                     <p className="project__text">{t("project.text6")}</p>
                 </li>
