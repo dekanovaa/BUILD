@@ -35,7 +35,7 @@ function Modal(){
         <Box
           sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 220 }}
           role="presentation"
-          // onClick={toggleDrawer(anchor, false)}
+          onClick={toggleDrawer(anchor, false)}
           onKeyDown={toggleDrawer(anchor, false)}
         >
           <List>
