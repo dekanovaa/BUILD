@@ -13,7 +13,7 @@ function Message() {
       };
      
       const sendMessage = (event) =>{
-          setloading(true);
+        
           event.preventDefault();
           const token =  "7067329402:AAEGunIJCoHOAJ1uF_oNy80ya2HbKsMJvgA";''
           const id = -1002022260815;
@@ -34,6 +34,7 @@ function Message() {
           .then((res) => {
             document.getElementById("form").reset();
            message.success("Yuborildi")
+           console.log(textContent)
           }).catch((error) =>{
             message.error("xatolik")
             console.log(error);
