@@ -5,15 +5,16 @@ import service3 from './Service_img/service3.png'
 import service4 from './Service_img/service4.png'
 import { t } from 'i18next'
 
-function Service() {
- 
 
+function Service() {
+
+ 
   return (
     <div className="service">
         <div className="container service__container">
   <h1 className="service__name">{t("service.title")}</h1>
             <ul className="service__list">
-                <li className="service__item_big" data-aos="fade-right">
+                <li className="service__item_big">
   <h3 className="service__title">{t("service.text1")}</h3>
                     <img className="service__img" src={service1} alt=""/>
                 </li>

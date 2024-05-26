@@ -52,6 +52,19 @@ option{
     background-color:#fce8bd;
 }
 
+.link-transparent{
+    color:#fff;
+}
+.link-blue{
+    color: rgb(22, 22, 22);
+}
+.img-transparent{
+    color:#fff;
+}
+.img-blue{
+    color: black;
+}
+
 
 
 

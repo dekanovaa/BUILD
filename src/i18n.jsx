@@ -14,7 +14,7 @@ i18n
   .use(Backend)
   .init({
     fallbackLng: 'en',
-    lng: language,
+    lng: i18n.language,
     debug: true,
     resources: {
       uz: { translation: uzTranslation }, 

@@ -5,7 +5,7 @@
         "link3":"Korxonalar",
         "link4":"Afzalliklarimiz",
         "link5":"Yangiliklar",
-        "limk6":"Aloqa",
+        "link6":"Aloqa",
         "link0":"Asosiy"
     },
     "header":{
@@ -53,6 +53,22 @@
     },
     "partner":{
         "title":"Hamkorlar bilan fikr almashish"
+    },
+    "about":{
+        "btn":"Ko'proq bilish"
+    },
+    "message":{
+        "text":"Savol, taklif va murojaatlar bormi?",
+        "btn":"Yuborish",
+        "name":"Ismingiz",
+        "tel":"Telefon raqamingiz",
+        "text":"Sizning xabarlaringiz"
+    },
+    "footer":{
+        "text1":"Ijtimoiy tarmoqlarimizga obuna bo'ling",
+        "text2":"Kompaniyamiz",
+        "text3":"Aloqa",
+        "link":"Bizning loyihalarimiz"
     }
 
 }

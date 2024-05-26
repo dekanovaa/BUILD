@@ -3,6 +3,7 @@ import back from './Message_img/message.png'
 import { useState } from 'react';
 import axios from 'axios';
 import { message } from 'antd';
+import { t } from 'i18next';
 
 
 function Message() {
@@ -45,12 +46,12 @@ function Message() {
   return (
     <div className="message" id="message">
         <div className="container message__container" style={backgroundImageStyle}>
-            <h3 className="message__title">Do you have any questions, suggestions or requests?</h3>
+  <h3 className="message__title">{t("message.text")}</h3>
             <form onSubmit = {sendMessage} id="form">
-                <input type="text" id="name" placeholder="Your name" required/><br/>
-                <input type="tel" id="tel" placeholder="Your phone number" required/><br/>
-                <textarea  id="text" placeholder="your message..." required ></textarea><br/>
-                <button type="submit" className="form__btn">Sending</button>
+                <input type="text" id="name" placeholder={t("message.name")} required/><br/>
+                <input type="tel" id="tel" placeholder={t("message.tel")} required/><br/>
+                <textarea  id="text" placeholder={t("message.text")} required ></textarea><br/>
+  <button type="submit" className="form__btn">{t("message.btn")}</button>
             </form>
         </div>
     </div>

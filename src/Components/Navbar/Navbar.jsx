@@ -14,14 +14,20 @@ function Navbar() {
     i18n.changeLanguage(selectedLaungage)
   }
   const [navColor, setNavColor] = useState('transparent');
+  const [linkColor, setlinkColor] = useState('transparent');
+  const [navImg, setnavImg] = useState('transparent');
 
   const handleScroll = () => {
 
     if (window.scrollY > 150) { 
       setNavColor('blue'); 
+      setlinkColor('blue');
+      setnavImg('blue');
 
     } else {
       setNavColor('transparent');
+      setlinkColor('transparent');
+      setnavImg('transparent');
     
     }
   };
@@ -40,31 +46,31 @@ function Navbar() {
            <Modal/>
              <ul className="navbar__list">
                  <li className="navbar__item">
-  <a className="navbar__link" href="#section">{t("navbar.link1")}</a>
+  <a className={`navbar__link ${linkColor === 'blue' ? 'link-blue' : 'link-transparent'}`} href="#section">{t("navbar.link1")}</a>
                  </li>
                  <li className="navbar__item">
-  <a className="navbar__link" href="#project">{t("navbar.link2")}</a>
+  <a className={`navbar__link ${linkColor === 'blue' ? 'link-blue' : 'link-transparent'}`} href="#project">{t("navbar.link2")}</a>
                  </li>
                  <li className="navbar__item">
-  <a className="navbar__link" href="#section">{t("navbar.link3")}</a>
+  <a className={`navbar__link ${linkColor === 'blue' ? 'link-blue' : 'link-transparent'}`} href="#section">{t("navbar.link3")}</a>
                  </li>
                  <li className="navbar__item">
-                     <img className="navbar__img" src={logo} alt="logo"/>
+                     <img className={`navbar__img ${navImg === 'blue' ? 'img-blue' : 'img-transparent'}`} src={logo} alt="logo"/>
                  </li>
                  <li className="navbar__item">
-  <a className="navbar__link" href="#about">{t("navbar.link4")}</a>
+  <a className={`navbar__link ${linkColor === 'blue' ? 'link-blue' : 'link-transparent'}`} href="#about">{t("navbar.link4")}</a>
                  </li>
                  <li className="navbar__item">
-  <a className="navbar__link" href="#news">{t("navbar.link5")}</a>
+  <a className={`navbar__link ${linkColor === 'blue' ? 'link-blue' : 'link-transparent'}`} href="#news">{t("navbar.link5")}</a>
                  </li>
                  <li className="navbar__item">
-  <a className="navbar__link" href="#message">{t("navbar.link6")}</a>
+  <a className={`navbar__link ${linkColor === 'blue' ? 'link-blue' : 'link-transparent'}`} href="#message">{t("navbar.link6")}</a>
                  </li>
                  <li className="navbar__item">
-                     <select onChange={handleChange} value={language} >
-                         <option >EN</option>
-                         <option >UZ</option>
-                         <option >RU</option>
+                     <select onChange={handleChange} value={i18n.language} className={`navbar__link ${linkColor === 'blue' ? 'link-blue' : 'link-transparent'}`}>
+                         <option value="en">EN</option>
+                         <option value="uz">UZ</option>
+                         <option value="ru">RU</option>
                      </select>
                  </li>
              </ul>

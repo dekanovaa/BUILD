@@ -11,7 +11,6 @@ import Partners from './Components/Partners/Partners'
 import About from './Components/About/About'
 import Message from './Components/Message/Message'
 import Footer from './Components/Footer/Footer'
-import Modal from './Components/Meeting/Modal'
 import { useTranslation } from 'react-i18next'
 import { t } from 'i18next'
 
