@@ -40,7 +40,7 @@ function Modal(){
         >
           <List>
             {[
-             
+               <h4 onClick={toggleDrawer(anchor,)}>X</h4>,
               <a className="navbar__link_modal" href="/">{t("navbar.link0")}</a>,
               <a className="navbar__link_modal" href="#section">{t("navbar.link1")}</a>,
               <a className="navbar__link_modal" href="#project">{t("navbar.link2")}</a>,
@@ -53,6 +53,7 @@ function Modal(){
                <option id="modal__option" value="uz">UZ</option>
                <option id="modal__option" value="ru">RU</option>
                </select>,
+               
              
             ].map((text, index) => (
               <ListItem key={text} disablePadding>
